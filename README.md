@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-## Linear Refression to Predict MPG 
+## Linear Regression to Predict MPG 
 ![Screen Shot 2022-06-16 at 10 41 06 AM](https://user-images.githubusercontent.com/97639454/174133067-fb9d7221-a92e-495e-88ee-7777edabecb2.png)
 - According to the above results, ground clearance and vehicle length provide a non-random amount of variance to the mpg values in the data set. 
 
@@ -14,5 +14,35 @@
 
 - However if we take of look at the image below of individual lot summary statistics of suspension coils, we can see that the variance of lot 3 is above 100 pounds per square inch requirement. Thus, Lot 3 does not meet the design specification. 
 ![Screen Shot 2022-06-16 at 2 22 25 PM](https://user-images.githubusercontent.com/97639454/174167879-0b28363c-505e-4967-a2a4-1626a535aceb.png)
+
+## T- Tests on Suspension Coils
+
+- The image below shows the following t-test that compares all manufacturing lots against mean PSI of the population, 1500. Here our p-value is above our significance level of 0.05 percent. Therefore, we do not have sufficient evidence to reject the null hypothesis. Thus, there is no statistical difference between the observed sample mean and its presumed population mean.
+![Screen Shot 2022-06-16 at 2 56 26 PM](https://user-images.githubusercontent.com/97639454/174177277-6a56de58-6771-4f0e-a671-6bea4d3a90c1.png)
+
+- The image below shows the following t-test that compares Lot 1 against mean PSI of the population, 1500. Here our p-value is above our significance level of 0.05 percent. Therefore, we do not have sufficient evidence to reject the null hypothesis. Thus, there is no statistical difference between the observed sample mean and its presumed population mean.
+![Screen Shot 2022-06-16 at 3 03 43 PM](https://user-images.githubusercontent.com/97639454/174182600-7d34f899-906a-4867-a032-ce25e6d9f9ba.png)
+
+- The image below shows the following t-test that compares Lot 2 against mean PSI of the population, 1500. Here our p-value is above our significance level of 0.05 percent. Therefore, we do not have sufficient evidence to reject the null hypothesis. Thus, there is no statistical difference between the observed sample mean and its presumed population mean.
+![Screen Shot 2022-06-16 at 3 04 39 PM](https://user-images.githubusercontent.com/97639454/174183542-af63cae7-73e9-4b99-85a6-4b1b018a0d4a.png)
+
+- The image below shows the following t-test that compares Lot 3 against mean PSI of the population, 1500. Here our p-value is below our significance level of 0.05 percent. Therefore, we do have sufficient evidence to reject the null hypothesis. Thus, there is a statistical difference between the observed sample mean and its presumed population mean.
+![Screen Shot 2022-06-16 at 3 05 29 PM](https://user-images.githubusercontent.com/97639454/174184374-118b99c2-a2c9-46de-a67b-2f9a375f5a65.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
