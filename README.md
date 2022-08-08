@@ -6,7 +6,7 @@
 
 - The slope of the linear mdel is not considered to be zero. This is because of our p-value which is 5.35e-11. Since our p-value is less than the normal siginficance level of 0.05 we know that it is a high significance, so we can reject our null hypothesis that m=0.
 
-- This linear model does not predict mpg of MechaCar prototypes effetively. This is because of the low variance of ground clearance and vehicle length. This means those signficant features may need scaling or transforming to help improve the predictive power of the model. Alternatively, it may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model.
+- This linear model does predict mpg of MechaCar prototypes effetively. This is because because the multiple r-squared value was 0.71. Which means that roughly 71% of the time the model will predict mpg values correctly.
 
 ## Summary Statistics on Suspension Coils 
 - Below is the image of the total summary statistics of suspension coils. The total variance of all lots is 62.29356 which is less than 100 pounds per square inch requirement, which meets the design specification.
